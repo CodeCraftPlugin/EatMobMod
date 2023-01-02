@@ -85,6 +85,3 @@ publishing {
         // retrieving dependencies.
     }
 }
-exec {
-    commandLine "echo", "##[set-output name=version;]${project.version}";
-}
