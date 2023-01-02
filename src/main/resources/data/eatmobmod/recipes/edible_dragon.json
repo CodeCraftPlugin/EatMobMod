@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GEG",
+    "TGT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:dragon_breath"
+    },
+    "T": {
+      "item": "minecraft:end_stone"
+    },
+    "E": {
+      "item": "eatmobmod:inedible_dragon"
+    }
+  },
+  "result": {
+    "item": "eatmobmod:edible_dragon",
+    "count": 1
+  }
+}

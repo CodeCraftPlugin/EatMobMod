@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GEG",
+    "TGT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:carrot"
+    },
+    "T": {
+      "item": "minecraft:porkchop"
+    },
+    "E": {
+      "item": "eatmobmod:inedible_pig"
+    }
+  },
+  "result": {
+    "item": "eatmobmod:edible_pig",
+    "count": 1
+  }
+}

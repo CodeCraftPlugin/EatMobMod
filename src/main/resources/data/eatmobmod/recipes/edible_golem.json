@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GEG",
+    "TGT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "minecraft:poppy"
+    },
+    "E": {
+      "item": "eatmobmod:inedible_golem"
+    }
+  },
+  "result": {
+    "item": "eatmobmod:edible_golem",
+    "count": 1
+  }
+}

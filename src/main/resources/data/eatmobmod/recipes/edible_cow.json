@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GEG",
+    "TGT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "minecraft:beef"
+    },
+    "E": {
+      "item": "eatmobmod:inedible_cow"
+    }
+  },
+  "result": {
+    "item": "eatmobmod:edible_cow",
+    "count": 1
+  }
+}

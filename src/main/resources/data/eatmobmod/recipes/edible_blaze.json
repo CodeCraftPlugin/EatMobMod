@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GEG",
+    "TGT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:blaze_powder"
+    },
+    "T": {
+      "item": "minecraft:blaze_rod"
+    },
+    "E": {
+      "item": "eatmobmod:inedible_blaze"
+    }
+  },
+  "result": {
+    "item": "eatmobmod:edible_blaze",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "item.eatmobmod.inedible_creeper": "Inedible Creeper",
+  "item.eatmobmod.inedible_cow": "Inedible Cow",
+  "item.eatmobmod.inedible_spider": "Inedible Spider",
+  "item.eatmobmod.inedible_pig": "Inedible Pig",
+  "item.eatmobmod.inedible_chicken": "Inedible Chicken",
+  "item.eatmobmod.inedible_dragon": "Inedible Ender Dragon",
+  "item.eatmobmod.inedible_blaze": "Inedible Blaze",
+
+  "item.eatmobmod.edible_creeper": "Edible Creeper",
+  "item.eatmobmod.edible_cow": "Edible Cow",
+  "item.eatmobmod.edible_spider": "Edible Spider",
+  "item.eatmobmod.edible_pig": "Edible Pig",
+  "item.eatmobmod.edible_chicken": "Edible Chicken",
+  "item.eatmobmod.edible_dragon": "Edible Ender Dragon",
+  "item.eatmobmod.edible_blaze": "Edible Blaze",
+
+  "itemGroup.eatmobmod.eatmob": "EatMobMod Item Group",
+
+  "effect.eatmobmod.lava_vision": "Lava Vision"
+}

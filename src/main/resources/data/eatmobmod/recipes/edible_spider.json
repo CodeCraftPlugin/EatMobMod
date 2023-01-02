@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GEG",
+    "TGT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:spider_eye"
+    },
+    "T": {
+      "item": "minecraft:string"
+    },
+    "E": {
+      "item": "eatmobmod:inedible_spider"
+    }
+  },
+  "result": {
+    "item": "eatmobmod:edible_spider",
+    "count": 1
+  }
+}

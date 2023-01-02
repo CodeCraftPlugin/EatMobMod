@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "eatmobmod",
+  "version": "${version}",
+  "name": "Eatmobmod",
+  "description": "Hello everyone this is codecraft the creator of this mod at the moment\n\nSo what is this mod about\n\nthis mod lets you(the player) eat other mobs\n\nevery wonder how that creeper would taste me neither but now you can see how it taste\n\nOf course, if you want to eat them you will have to kill them and then cook them\n\n \n\nthere is a 30% chance of the mob except ender dragon dropping their self\n\nonce you have one of those open the crafting table click the mob you want in edible form\n\nFrom Creeper to ender dragon we have all the mob that your heart and Minecraft stomach desire \n\n \n\n \n\nBon Appetite ",
+  "authors": [
+    "CodeCraft"
+  ],
+  "contact": {
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/eat-mob/issues",
+    "sources": "https://github.com/CodeCraftPlugin/EatMobMod",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/eat-mob"
+  },
+  "license": "MIT",
+  "icon": "assets/eatmobmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.codecraft.eatmobmod.EatMobMod"
+    ]
+  },
+  "mixins": [
+    "eatmobmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2",
+    "registrylib": ">=1.0.0"
+  }
+}

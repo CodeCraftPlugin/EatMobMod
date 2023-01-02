@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGT",
+    "GEG",
+    "TGT"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gunpowder"
+    },
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "E": {
+      "item": "eatmobmod:inedible_creeper"
+    }
+  },
+  "result": {
+    "item": "eatmobmod:edible_creeper",
+    "count": 1
+  }
+}
