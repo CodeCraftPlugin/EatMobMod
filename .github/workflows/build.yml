@@ -10,10 +10,11 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: 17
-      - name: make gradle wrapper executable
-        run: chmod +x gradlew
-      - name: build
-        run: ./gradlew build
+      - {
+        name: "Build with Gradle",
+        id: build,
+        run: "chmod +x gradlew && ./gradlew build publish",
+      }
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Create Release
