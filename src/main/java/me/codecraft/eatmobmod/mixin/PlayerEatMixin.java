@@ -104,7 +104,7 @@ public class PlayerEatMixin {
                             double x = playerEntity.getX() + playerDirection.x;
                             double y = playerEntity.getY() + playerDirection.y;
                             double z = playerEntity.getZ() + playerDirection.z;
-                            playerEntity.world.createExplosion(playerEntity, x, y, z, 3, false, Explosion.DestructionType.NONE);
+                            playerEntity.world.createExplosion(playerEntity, x, y, z, 3, false, World.ExplosionSourceType.TNT);
                             return TypedActionResult.success(playerEntity.getMainHandStack());
                         });
                     }
@@ -114,10 +114,10 @@ public class PlayerEatMixin {
 
         if (player.isSneaking()&&spider) {
             // Get the block the player is standing on
-            BlockPos blockPosx = new BlockPos(player.getX()-1, player.getY(), player.getZ());
-            BlockPos blockPosz = new BlockPos(player.getX(), player.getY(), player.getZ()-1);
-            BlockPos blockPosx2 = new BlockPos(player.getX()+1, player.getY(), player.getZ());
-            BlockPos blockPosz2 = new BlockPos(player.getX(), player.getY(), player.getZ()+1);
+            BlockPos blockPosx = new BlockPos((int) player.getX()-1, (int)player.getY(), (int)player.getZ());
+            BlockPos blockPosz = new BlockPos((int)player.getX(), (int)player.getY(), (int)player.getZ()-1);
+            BlockPos blockPosx2 = new BlockPos((int)player.getX()+1, (int)player.getY(), (int)player.getZ());
+            BlockPos blockPosz2 = new BlockPos((int)player.getX(), (int)player.getY(), (int)player.getZ()+1);
             BlockState blockStatex = player.world.getBlockState(blockPosx);
             BlockState blockStatez = player.world.getBlockState(blockPosz);
             BlockState blockStatex1 = player.world.getBlockState(blockPosx2);
